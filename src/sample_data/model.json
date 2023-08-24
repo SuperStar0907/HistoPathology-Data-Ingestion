@@ -1,0 +1,56 @@
+[
+  {
+    "patient_gender": "string (Male/Female/Other)",
+    "patient_name": "string",
+    "aadhar_number": "string (12-digit number with hyphens)",
+    "patient_birthdate": "string (YYYY-MM-DD)",
+    "patient_email": "string (valid email address)",
+    "patient_mobile_no": "string (valid mobile phone number with country code)",
+    "patient_address": {
+      "street": "string",
+      "city": "string",
+      "state": "string (2-letter abbreviation)",
+      "zip": "string (5-digit ZIP code)"
+    },
+    "patient_consent": "boolean",
+    "patient_height": "string (height in cm)",
+    "patient_weight": "string (weight in kg)",
+    "patientPurpose": [
+      {
+        "purpose_name": "string",
+        "purpose_description": "string",
+        "visit_info": [
+          {
+            "hospital_name": "string",
+            "visit_date": "string (YYYY-MM-DD)",
+            "visit_conclusion": "string",
+            "disease_condition": "string or null",
+            "samples": [
+              {
+                "sample_name": "string",
+                "sample_detail": "string",
+                "sample_fields": [
+                  {
+                    "field_name": "string",
+                    "field_value": "string"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "patient_history": {
+      "smoking": "boolean",
+      "alcoholic": "boolean",
+      "diabetic": "boolean",
+      "hypertension": "boolean",
+      "jandice": "boolean",
+      "weight_loss": "boolean",
+      "bleeding": "boolean",
+      "white_discharge_from_vagina": "boolean",
+      "others": "string or null"
+    }
+  }
+]

@@ -1,0 +1,453 @@
+[
+  {
+    "patient_gender": "Female",
+    "patient_name": "Emma Johnson",
+    "aadhar_number": "1234-5678-9012",
+    "patient_birthdate": "1988-03-14",
+    "patient_email": "emma.johnson@example.com",
+    "patient_mobile_no": "+1 123-456-7890",
+    "patient_address": {
+      "street": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345"
+    },
+    "patient_consent": true,
+    "patient_height": "190 cm",
+    "patient_weight": "130 lb",
+    "patientPurpose": [
+      {
+        "purpose_name": "Routine Check-up",
+        "purpose_description": "Annual check-up",
+        "visit_info": [
+          {
+            "hospital_name": "Anytown Clinic",
+            "visit_date": "2022-10-01",
+            "visit_conclusion": "Patient in good health",
+            "disease_condition": null,
+            "samples": []
+          }
+        ]
+      },
+      {
+        "purpose_name": "Pregnancy",
+        "purpose_description": "Routine prenatal care",
+        "visit_info": [
+          {
+            "hospital_name": "Anytown Hospital",
+            "visit_date": "2023-02-01",
+            "visit_conclusion": "Healthy pregnancy",
+            "disease_condition": null,
+            "samples": [
+              {
+                "sample_name": "Urine",
+                "sample_detail": "Pregnancy test",
+                "sample_fields": [
+                  {
+                    "field_name": "Beta-hCG",
+                    "field_value": "2500 mIU/mL"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "hospital_name": "Anytown Hospital",
+            "visit_date": "2023-04-01",
+            "visit_conclusion": "Healthy pregnancy",
+            "disease_condition": null,
+            "samples": [
+              {
+                "sample_name": "Ultrasound",
+                "sample_detail": "Fetal growth",
+                "sample_fields": [
+                  {
+                    "field_name": "Gestational age",
+                    "field_value": "18 weeks"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "patient_history": {
+      "smoking": false,
+      "alcoholic": false,
+      "diabetic": false,
+      "hypertension": false,
+      "jandice": false,
+      "weight_loss": false,
+      "bleeding": false,
+      "white_discharge_from_vagina": false,
+      "others": null
+    }
+  },
+  {
+    "patient_gender": "Other",
+    "patient_name": "Alex Smith",
+    "aadhar_number": "5432-1098-7654",
+    "patient_birthdate": "1995-12-01",
+    "patient_email": "alex.smith@example.com",
+    "patient_mobile_no": "+1 555-555-5555",
+    "patient_address": {
+      "street": "789 Elm St",
+      "city": "Big City",
+      "state": "TX",
+      "zip": "67890"
+    },
+    "patient_consent": true,
+    "patient_height": "150 cm",
+    "patient_weight": "176 lb",
+    "patientPurpose": [
+      {
+        "purpose_name": "Routine Checkup",
+        "purpose_description": "Annual health checkup",
+        "visit_info": [
+          {
+            "hospital_name": "Anytown Hospital",
+            "visit_date": "2022-01-15",
+            "visit_conclusion": "Patient is healthy",
+            "disease_condition": null,
+            "samples": [
+              {
+                "sample_name": "Blood",
+                "sample_detail": "Complete Blood Count (CBC)",
+                "sample_fields": [
+                  {
+                    "field_name": "Hemoglobin",
+                    "field_value": "14 g/dL"
+                  },
+                  {
+                    "field_name": "Platelet Count",
+                    "field_value": "200,000/uL"
+                  }
+                ]
+              },
+              {
+                "sample_name": "Urine",
+                "sample_detail": "Routine Urinalysis",
+                "sample_fields": [
+                  {
+                    "field_name": "Color",
+                    "field_value": "Yellow"
+                  },
+                  {
+                    "field_name": "pH",
+                    "field_value": "6.0"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "hospital_name": "Anytown Hospital",
+            "visit_date": "2023-03-01",
+            "visit_conclusion": "Patient is healthy",
+            "disease_condition": null,
+            "samples": [
+              {
+                "sample_name": "Blood",
+                "sample_detail": "Lipid Profile",
+                "sample_fields": [
+                  {
+                    "field_name": "Cholesterol",
+                    "field_value": "200 mg/dL"
+                  },
+                  {
+                    "field_name": "Triglycerides",
+                    "field_value": "150 mg/dL"
+                  }
+                ]
+              },
+              {
+                "sample_name": "Urine",
+                "sample_detail": "Microscopic Urinalysis",
+                "sample_fields": [
+                  {
+                    "field_name": "Red Blood Cells",
+                    "field_value": "0-2 /HPF"
+                  },
+                  {
+                    "field_name": "White Blood Cells",
+                    "field_value": "0-2 /HPF"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "purpose_name": "Chest Pain",
+        "purpose_description": "Evaluation for chest pain",
+        "visit_info": [
+          {
+            "hospital_name": "Anytown Hospital",
+            "visit_date": "2022-05-01",
+            "visit_conclusion": "Patient has musculoskeletal pain",
+            "disease_condition": null,
+            "samples": []
+          }
+        ]
+      }
+    ],
+    "patient_history": {
+      "smoking": true,
+      "alcoholic": false,
+      "diabetic": false,
+      "hypertension": true,
+      "jandice": false,
+      "weight_loss": false,
+      "bleeding": false,
+      "white_discharge_from_vagina": false,
+      "others": null
+    }
+  },
+  {
+    "patient_gender": "Male",
+    "patient_name": "John Doe",
+    "aadhar_number": "1234-5678-9012",
+    "patient_birthdate": "1985-01-01",
+    "patient_email": "johndoe@example.com",
+    "patient_mobile_no": "+1-555-555-5555",
+    "patient_address": {
+      "street": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345"
+    },
+    "patient_consent": true,
+    "patient_height": "175 cm",
+    "patient_weight": "70 kg",
+    "patientPurpose": [
+      {
+        "purpose_name": "General Checkup",
+        "purpose_description": "Routine checkup to monitor overall health",
+        "visit_info": [
+          {
+            "hospital_name": "ABC Hospital",
+            "visit_date": "2023-04-15",
+            "visit_conclusion": "Patient appears to be in good health",
+            "disease_condition": null,
+            "samples": [
+              {
+                "sample_name": "Blood",
+                "sample_detail": "Complete Blood Count",
+                "sample_fields": [
+                  {
+                    "field_name": "Hemoglobin",
+                    "field_value": "14 g/dL"
+                  },
+                  {
+                    "field_name": "White Blood Cells",
+                    "field_value": "7.5 x10^9/L"
+                  },
+                  {
+                    "field_name": "Platelets",
+                    "field_value": "150 x10^9/L"
+                  }
+                ]
+              },
+              {
+                "sample_name": "Urine",
+                "sample_detail": "Routine Urinalysis",
+                "sample_fields": [
+                  {
+                    "field_name": "Color",
+                    "field_value": "Yellow"
+                  },
+                  {
+                    "field_name": "pH",
+                    "field_value": "6.0"
+                  },
+                  {
+                    "field_name": "Protein",
+                    "field_value": "Negative"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "hospital_name": "DEF Hospital",
+            "visit_date": "2023-03-01",
+            "visit_conclusion": "Patient appears to be in good health",
+            "disease_condition": null,
+            "samples": [
+              {
+                "sample_name": "Blood",
+                "sample_detail": "Complete Blood Count",
+                "sample_fields": [
+                  {
+                    "field_name": "Hemoglobin",
+                    "field_value": "12 g/dL"
+                  },
+                  {
+                    "field_name": "White Blood Cells",
+                    "field_value": "6.5 x10^9/L"
+                  },
+                  {
+                    "field_name": "Platelets",
+                    "field_value": "140 x10^9/L"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "purpose_name": "Annual Physical",
+        "purpose_description": "Comprehensive physical examination for preventive care",
+        "visit_info": [
+          {
+            "hospital_name": "ABC Hospital",
+            "visit_date": "2022-12-15",
+            "visit_conclusion": "Patient appears to be in good health",
+            "disease_condition": null,
+            "samples": []
+          }
+        ]
+      }
+    ],
+    "patient_history": {
+      "smoking": false,
+      "alcoholic": false,
+      "diabetic": false,
+      "hypertension": false,
+      "hypertension": true,
+      "jandice": true,
+      "weight_loss": false,
+      "bleeding": false,
+      "white_discharge_from_vagina": true,
+      "others": null
+    }
+  },
+  {
+    "patient_gender": "Female",
+    "patient_name": "Emma Smith",
+    "aadhar_number": "1234-5678-9012",
+    "patient_birthdate": "1990-03-14",
+    "patient_email": "emma.smith@example.com",
+    "patient_mobile_no": "+1-555-555-1234",
+    "patient_address": {
+      "street": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345"
+    },
+    "patient_consent": true,
+    "patient_height": "170 cm",
+    "patient_weight": "135 lb",
+    "patientPurpose": [
+      {
+        "purpose_name": "Annual Physical",
+        "purpose_description": "Yearly checkup and lab tests",
+        "visit_info": [
+          {
+            "hospital_name": "Anytown Medical Center",
+            "visit_date": "2022-06-01",
+            "visit_conclusion": "Patient is healthy",
+            "disease_condition": null,
+            "samples": [
+              {
+                "sample_name": "Blood",
+                "sample_detail": "Complete Blood Count (CBC)",
+                "sample_fields": [
+                  {
+                    "field_name": "Hemoglobin",
+                    "field_value": "12.5 g/dL"
+                  },
+                  {
+                    "field_name": "White Blood Cell Count",
+                    "field_value": "6,000/uL"
+                  }
+                ]
+              },
+              {
+                "sample_name": "Urine",
+                "sample_detail": "Urinalysis",
+                "sample_fields": [
+                  {
+                    "field_name": "Color",
+                    "field_value": "Pale yellow"
+                  },
+                  {
+                    "field_name": "pH",
+                    "field_value": "6.5"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "hospital_name": "Anytown Medical Center",
+            "visit_date": "2023-03-01",
+            "visit_conclusion": "Patient is healthy",
+            "disease_condition": null,
+            "samples": [
+              {
+                "sample_name": "Blood",
+                "sample_detail": "Lipid Panel",
+                "sample_fields": [
+                  {
+                    "field_name": "Total Cholesterol",
+                    "field_value": "175 mg/dL"
+                  },
+                  {
+                    "field_name": "HDL Cholesterol",
+                    "field_value": "50 mg/dL"
+                  },
+                  {
+                    "field_name": "Triglycerides",
+                    "field_value": "120 mg/dL"
+                  }
+                ]
+              },
+              {
+                "sample_name": "Urine",
+                "sample_detail": "Microscopic Urinalysis",
+                "sample_fields": [
+                  {
+                    "field_name": "Red Blood Cells",
+                    "field_value": "0-1 /HPF"
+                  },
+                  {
+                    "field_name": "White Blood Cells",
+                    "field_value": "0-2 /HPF"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "purpose_name": "Joint Pain",
+        "purpose_description": "Evaluation for joint pain",
+        "visit_info": [
+          {
+            "hospital_name": "Anytown Medical Center",
+            "visit_date": "2022-09-15",
+            "visit_conclusion": "Patient has mild osteoarthritis",
+            "disease_condition": "Osteoarthritis",
+            "samples": []
+          }
+        ]
+      }
+    ],
+    "patient_history": {
+      "smoking": false,
+      "alcoholic": false,
+      "diabetic": false,
+      "hypertension": false,
+      "jandice": false,
+      "weight_loss": false,
+      "bleeding": false,
+      "white_discharge_from_vagina": false,
+      "others": null
+    }
+  }
+]

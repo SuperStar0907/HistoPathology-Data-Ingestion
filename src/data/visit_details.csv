@@ -1,0 +1,11 @@
+aadhar_number,purpose_name,purpose_description,hospital_name,visit_date,visit_conclusion,disease_condition,sample_name,sample_detail,sample_field_name,sample_field_value
+400848845355-64-9202,regular check-up,anual check-up,anytown clinic,2021-04-16,Healthy,,Blood,Cholesterol test,Total cholesterol,190 mg/dL
+400848845355-64-9202,regular check-up,anual check-up,anytown clinic,2021-04-16,Healthy,,Blood,Cholesterol test,blood group,B-
+400848845355-64-9202,regular check-up,anual check-up,anytown clinic,2021-04-16,Healthy,,Urine,Pregnancy test,Beta-hCG,2500 mIU/mL
+400848845355-64-9202,regular check-up,anual check-up,anytown clinic,2022-05-10,Healthy check-up,,,,,
+400848845355-64-9202,Flu symptoms,Influenza,Good clinic,2022-05-10,Healthy check-up,,,,,
+681109678904-59-2872,Stomach pain,Gastritis,Boston Clinic,2022-06-05,Prescription of medications,Relief from symptoms,,,,
+451203789458-27-3893,Flu symptoms,Influenza,San Francisco Hospital,2022-02-16,Prescription of antivirals,Recovery from illness,,,,
+431105234532-65-2475,STD testing,Testing for chlamydia,Berlin Clinic,2022-03-28,Negative test result,,Urine,Chlamydia test,Positive/Negative,Negative
+551209534231-45-1905,Stomach pain,Gastritis,London Clinic,2022-04-12,Prescription of medication,Relief from symptoms,,,,
+631206045220-51-4927,High blood pressure,Hypertension,New York Hospital,2022-01-05,Prescription of medication,Improved blood pressure,,,,

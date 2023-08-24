@@ -1,0 +1,45 @@
+{
+  "name": "healthcare_data_ingestion",
+  "version": "1.0.0",
+  "description": "### Project: Histopathology Data Ingestion",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint --fix src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patel-Technologies/Gujjus.git"
+  },
+  "author": "Jay Ghevariya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patel-Technologies/Gujjus/issues"
+  },
+  "homepage": "https://github.com/Patel-Technologies/Gujjus#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "csv-parse": "^5.3.10",
+    "dotenv": "^8.2.0",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "minio": "^7.1.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.2.5",
+    "objects-to-csv": "^1.3.6",
+    "path": "^0.12.7",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.6"
+  }
+}
